@@ -14,9 +14,14 @@ body {
 
 .form {
   margin-bottom: 5px;
-  font-size: 22px;
+  font-size: 24px;
   display: flex;
   gap: 20px;
+}
+
+input,
+select {
+  font-size: 18px;
 }
 
 .output {
