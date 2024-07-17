@@ -3,5 +3,5 @@ export default function Reset({ setFriendRate, setPersonalRate, total }) {
     setFriendRate(0);
     setPersonalRate(0);
   }
-  return total !== 0 && <button onClick={handleClick}>Reset</button>;
+  return <button onClick={handleClick}>Reset</button>;
 }

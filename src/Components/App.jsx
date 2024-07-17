@@ -38,11 +38,13 @@ export default function App() {
         <label>How did your friend like the service?</label>
       </SelectPercentage>
       <Output tip={tip} total={total} bill={bill} />
-      <Reset
-        setPersonalRate={setPersonalRate}
-        setFriendRate={setFriendRate}
-        total={total}
-      />
+      {total !== 0 && (
+        <Reset
+          setPersonalRate={setPersonalRate}
+          setFriendRate={setFriendRate}
+          total={total}
+        />
+      )}
     </form>
   );
 }
