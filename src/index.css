@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 10px;
+}
+
+.form {
+  margin-bottom: 5px;
+  font-size: 22px;
+  display: flex;
+  gap: 20px;
+}
+
+.output {
+  margin-top: 30px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 15px;
+  padding: 2px 8px;
+  font-size: 14px;
+}
