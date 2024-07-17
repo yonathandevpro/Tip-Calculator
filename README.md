@@ -17,7 +17,7 @@ The Tip Calculator is a React-based web application designed to help users easil
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/tip-calculator.git
+   git clone https://github.com/yonathandevpro/tip-calculator.git
    cd tip-calculator
    ```
 
